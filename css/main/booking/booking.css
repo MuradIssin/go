@@ -4,6 +4,8 @@
 
 .container__booking {
   background-color: #440F51;
+  /* background-color: rgb(237, 237, 216); */
+  /* box-sizing: border-box; */
 }
 
 .container__booking-block {
@@ -53,10 +55,12 @@
   align-items: center;
   cursor: pointer;
   user-select: none;
-  transition-duration: 300ms;
+  transition-duration: 200ms;
 }
 
-.booking-hall__label:hover {
+/* правка 22/03 */
+/* .booking-hall__label:hover { */
+.booking-hall__input:hover {
   background: #EADEED;
   border: 3px solid #640AA3;
 }
@@ -157,9 +161,13 @@
   background-color: #FFFFFF;
 }
 
-.booking-set__input--radio:focus {
+.booking-set__input--radio:focus::after {
   border: 1px solid #CD06FF;
 }
+
+/* .booking-set__input:focus {
+  border: 1px solid #CD06FF;
+} */
 
 .booking-set__input--radio::after {
   content: "";
@@ -210,10 +218,10 @@
   opacity: 1;
 }
 
-/* сбок справа */
+/* бок справа */
 .booking-set__input--checkbox:focus {
   /* добавлено 22/03 */
-  /* border: 1px solid #CD06FF; */
+  border: 1x solid #CD06FF;
 }
 
 /* чек бокс завершение*/

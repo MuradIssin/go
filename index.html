@@ -99,6 +99,7 @@
 
             <fieldset class="booking__hall booking-hall">
               <legend class="booking-hall__title">Выбери зал</legend>
+
               <div class="booking-hall__block">
 
                 <div class="booking-hall__radio-btn">
@@ -132,26 +133,66 @@
                 <fieldset class="booking-set__set">
                   <legend class="booking-set__subtitle">Приставка:</legend>
                   <div class="booking-set__block-sub">
-                    <label class="booking-set__item booking-set__item--radio">
-                      <input type="radio" name="device" value="PlayStation"
-                        class="booking-set__input booking-set__input--radio">
+
+                    <!-- test -->
+                    <label class="booking-set__item--radio">
+                      <input type="radio" name="device" value="PlayStation" class="booking-set__input--radio">
+                      <span class="booking-set__style--radio"></span>
                       PlayStation
                     </label>
+
+
+                    <label class="booking-set__item--radio">
+                      <input type="radio" name="device" value="Sega Mega Drive" class="booking-set__input--radio">
+                      <span class="booking-set__style--radio"></span>
+                      Sega Mega Drive
+                    </label>
+
+                    <label class="booking-set__item--radio">
+                      <input type="radio" name="device" value="X-box One S" class="booking-set__input--radio">
+                      <span class="booking-set__style--radio"></span>
+                      X-box One S
+                    </label>
+
+                    <label class="booking-set__item--radio">
+                      <input type="radio" name="device" value="Dendy" class="booking-set__input--radio">
+                      <span class="booking-set__style--radio"></span>
+                      Dendy
+                    </label>
+
+                    <!-- <label class="booking-set__item booking-set__item--radio">
+                      <input type="radio" name="device" value="PlayStation"
+                        class="booking-set__input booking-set__input--radio">
+
+                      <span class="booking-set__style"></span>
+                      <span class="booking-set__style-square"></span>
+
+                      PlayStation
+                    </label>
+
                     <label class="booking-set__item booking-set__item--radio">
                       <input type="radio" name="device" value="Sega Mega Drive"
                         class="booking-set__input booking-set__input--radio">
+                      <span class="booking-set__style"></span>
+                      <span class="booking-set__style-square"></span>
+
                       Sega Mega Drive
                     </label>
+
                     <label class="booking-set__item booking-set__item--radio">
                       <input type="radio" name="device" value="X-box One S"
                         class="booking-set__input booking-set__input--radio">
-                      X-box One S
+                      <span class="booking-set__style"></span>
+                    X-box One S
                     </label>
+
                     <label class="booking-set__item booking-set__item--radio">
                       <input type="radio" name="device" value="Dendy"
                         class="booking-set__input booking-set__input--radio">
+                      <span class="booking-set__style"></span>
                       Dendy
-                    </label>
+                    </label> -->
+
                   </div>
                 </fieldset>
 
@@ -161,21 +202,25 @@
                     <label class="booking-set__item">
                       <input type="checkbox" name="game" value="Jenga"
                         class="booking-set__input booking-set__input--checkbox">
+                      <span class="booking-set__style"></span>
                       Jenga
                     </label>
                     <label class="booking-set__item">
                       <input type="checkbox" name="game" value="Monopoly"
                         class="booking-set__input booking-set__input--checkbox">
+                      <span class="booking-set__style"></span>
                       Monopoly
                     </label>
                     <label class="booking-set__item">
                       <input type="checkbox" name="game" value="manchin"
                         class="booking-set__input booking-set__input--checkbox">
+                      <span class="booking-set__style"></span>
                       Манчкин
                     </label>
                     <label class="booking-set__item">
                       <input type="checkbox" name="game" value="Alias"
                         class="booking-set__input booking-set__input--checkbox">
+                      <span class="booking-set__style"></span>
                       Alias
                     </label>
                   </div>
@@ -187,11 +232,13 @@
                     <label class="booking-set__item">
                       <input type="checkbox" name="addDevice" value="Karaoke"
                         class="booking-set__input booking-set__input--checkbox">
+                      <span class="booking-set__style"></span>
                       Караоке
                     </label>
                     <label class="booking-set__item">
                       <input type="checkbox" name="addDevice" value="vr"
                         class="booking-set__input booking-set__input--checkbox">
+                      <span class="booking-set__style"></span>
                       VR
                     </label>
                   </div>
@@ -221,9 +268,9 @@
 
                   <!-- временно исключено, до получения разъяснений -->
                   <div class="booking-order__block-field">
-                    <label class="booking-order__name-field">&nbsp</label>
-                    <input type="number" name="numberGuests" required class="booking-order__input"
-                      placeholder="Сколько человек">
+                    <!-- <label class="booking-order__name-field">&nbsp</label> -->
+                    <input type="number" name="numberGuests" required
+                      class="booking-order__input booking-order__input--space" placeholder="Сколько человек">
                   </div>
 
                   <!-- <div class="booking-order__block-field">
